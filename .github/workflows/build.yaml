@@ -123,9 +123,6 @@ jobs:
         with:
           submodules: recursive
 
-      # - name: Open reverse SSH
-      #   run: bash ./github_actions_reverse_ssh.sh
-
       - name: Updating package manager cache
         run: sudo apt update -y
 
